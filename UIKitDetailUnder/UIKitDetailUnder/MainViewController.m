@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "ViewDetailBase.h"
 #import "ViewLayoutViewController.h"
+#import "HierarchyViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    self.listArray = @[@"view详解-基本属性-方法",@"view详解-视图层级和布局"];
+    self.listArray = @[@"view详解-基本属性-方法",@"view详解-视图层级",@"view详解-视图布局"];
     [self.view addSubview:self.viewDetailTabel];
 }
 
@@ -60,9 +61,16 @@
             break;
         case 1:
         {
+            HierarchyViewController *hierarVC = [[HierarchyViewController alloc]init];
+            [self.navigationController pushViewController:hierarVC animated:YES];
+        }
+            break;
+        case 2:
+        {
             ViewLayoutViewController *layOutVC = [[ViewLayoutViewController alloc]init];
             [self.navigationController pushViewController:layOutVC animated:YES];
         }
+            break;
         default:
             break;
     }

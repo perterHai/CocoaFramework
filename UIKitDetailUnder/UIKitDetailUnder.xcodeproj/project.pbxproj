@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D90248501F15BEE300EDB077 /* ViewLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */; };
+		D90248531F15CED900EDB077 /* LayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248521F15CED900EDB077 /* LayoutView.m */; };
+		D90248561F15CF1900EDB077 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248551F15CF1900EDB077 /* HierarchyViewController.m */; };
+		D90248591F15CF2E00EDB077 /* HierarchyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248581F15CF2E00EDB077 /* HierarchyView.m */; };
 		D9AAC48F1F13735F009498FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC48E1F13735F009498FF /* AppDelegate.m */; };
 		D9AAC4971F13735F009498FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4961F13735F009498FF /* Assets.xcassets */; };
 		D9AAC49A1F13735F009498FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4981F13735F009498FF /* LaunchScreen.storyboard */; };
@@ -39,6 +42,12 @@
 /* Begin PBXFileReference section */
 		D902484E1F15BEE300EDB077 /* ViewLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewLayoutViewController.h; sourceTree = "<group>"; };
 		D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewLayoutViewController.m; sourceTree = "<group>"; };
+		D90248511F15CED900EDB077 /* LayoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutView.h; sourceTree = "<group>"; };
+		D90248521F15CED900EDB077 /* LayoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutView.m; sourceTree = "<group>"; };
+		D90248541F15CF1900EDB077 /* HierarchyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HierarchyViewController.h; sourceTree = "<group>"; };
+		D90248551F15CF1900EDB077 /* HierarchyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyViewController.m; sourceTree = "<group>"; };
+		D90248571F15CF2E00EDB077 /* HierarchyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HierarchyView.h; sourceTree = "<group>"; };
+		D90248581F15CF2E00EDB077 /* HierarchyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyView.m; sourceTree = "<group>"; };
 		D9AAC48A1F13735F009498FF /* UIKitDetailUnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDetailUnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AAC48D1F13735F009498FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AAC48E1F13735F009498FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +157,12 @@
 				D9D60E921F14D56B009E47F5 /* ViewDetailBase.m */,
 				D902484E1F15BEE300EDB077 /* ViewLayoutViewController.h */,
 				D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */,
+				D90248511F15CED900EDB077 /* LayoutView.h */,
+				D90248521F15CED900EDB077 /* LayoutView.m */,
+				D90248541F15CF1900EDB077 /* HierarchyViewController.h */,
+				D90248551F15CF1900EDB077 /* HierarchyViewController.m */,
+				D90248571F15CF2E00EDB077 /* HierarchyView.h */,
+				D90248581F15CF2E00EDB077 /* HierarchyView.m */,
 			);
 			path = ViewDetail;
 			sourceTree = "<group>";
@@ -283,9 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D60E941F14D678009E47F5 /* BaseView.m in Sources */,
+				D90248531F15CED900EDB077 /* LayoutView.m in Sources */,
+				D90248561F15CF1900EDB077 /* HierarchyViewController.m in Sources */,
 				D90248501F15BEE300EDB077 /* ViewLayoutViewController.m in Sources */,
 				D9D60E931F14D5CB009E47F5 /* ViewDetailBase.m in Sources */,
 				D9AAC49D1F13735F009498FF /* main.m in Sources */,
+				D90248591F15CF2E00EDB077 /* HierarchyView.m in Sources */,
 				D9AAC4C11F1373C0009498FF /* MainViewController.m in Sources */,
 				D9AAC48F1F13735F009498FF /* AppDelegate.m in Sources */,
 			);
