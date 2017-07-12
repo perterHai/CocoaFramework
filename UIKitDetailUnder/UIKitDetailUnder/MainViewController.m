@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "ViewDetailBase.h"
+#import "ViewLayoutViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -22,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    self.listArray = @[@"view详解-基本属性-方法"];
+    self.listArray = @[@"view详解-基本属性-方法",@"view详解-视图层级和布局"];
     [self.view addSubview:self.viewDetailTabel];
 }
 
@@ -57,7 +58,11 @@
             [self.navigationController pushViewController:base animated:YES];
         }
             break;
-            
+        case 1:
+        {
+            ViewLayoutViewController *layOutVC = [[ViewLayoutViewController alloc]init];
+            [self.navigationController pushViewController:layOutVC animated:YES];
+        }
         default:
             break;
     }

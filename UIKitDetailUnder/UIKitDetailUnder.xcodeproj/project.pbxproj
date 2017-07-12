@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90248501F15BEE300EDB077 /* ViewLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */; };
 		D9AAC48F1F13735F009498FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC48E1F13735F009498FF /* AppDelegate.m */; };
 		D9AAC4971F13735F009498FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4961F13735F009498FF /* Assets.xcassets */; };
 		D9AAC49A1F13735F009498FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4981F13735F009498FF /* LaunchScreen.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D902484E1F15BEE300EDB077 /* ViewLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewLayoutViewController.h; sourceTree = "<group>"; };
+		D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewLayoutViewController.m; sourceTree = "<group>"; };
 		D9AAC48A1F13735F009498FF /* UIKitDetailUnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDetailUnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AAC48D1F13735F009498FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AAC48E1F13735F009498FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -143,6 +146,8 @@
 				D9D60E901F14D56B009E47F5 /* BaseView.m */,
 				D9D60E911F14D56B009E47F5 /* ViewDetailBase.h */,
 				D9D60E921F14D56B009E47F5 /* ViewDetailBase.m */,
+				D902484E1F15BEE300EDB077 /* ViewLayoutViewController.h */,
+				D902484F1F15BEE300EDB077 /* ViewLayoutViewController.m */,
 			);
 			path = ViewDetail;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9D60E941F14D678009E47F5 /* BaseView.m in Sources */,
+				D90248501F15BEE300EDB077 /* ViewLayoutViewController.m in Sources */,
 				D9D60E931F14D5CB009E47F5 /* ViewDetailBase.m in Sources */,
 				D9AAC49D1F13735F009498FF /* main.m in Sources */,
 				D9AAC4C11F1373C0009498FF /* MainViewController.m in Sources */,
