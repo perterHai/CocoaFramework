@@ -58,6 +58,8 @@
     NSLog(@"baseView的window:%@",self.window);
     
     [self setUpRedSubviews:redSubView];
+    
+    [greenSubView removeFromSuperview];
 }
 
 
@@ -81,6 +83,27 @@
     [redSubview sendSubviewToBack:subview3];
     //交换最底层视图和最上层视图
     [redSubview exchangeSubviewAtIndex:0 withSubviewAtIndex:redSubview.subviews.count-1];
+    
+}
+
+-(void)didAddSubview:(UIView *)subview
+{
+    NSLog(@"增加了subview：%@",subview);
+}
+
+-(void)willRemoveSubview:(UIView *)subview
+{
+    NSLog(@"将要删除subview：%@",subview);
+}
+
+-(void)willMoveToSuperview:(UIView *)newSuperview
+{
+    NSLog(@"将要从父视图删除：%@",newSuperview);
+}
+
+-(void)didMoveToSuperview
+{
+    NSLog(@"已经从父视图删除");
 }
 
 @end
