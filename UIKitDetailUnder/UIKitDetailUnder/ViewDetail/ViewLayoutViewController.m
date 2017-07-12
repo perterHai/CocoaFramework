@@ -58,6 +58,30 @@
     NSLog(@"baseView的superview:%@",baseView.superview);
     NSLog(@"baseView的window:%@",baseView.window);
     NSLog(@"self.view的window:%@",self.view.window);
+    
+    [self setUpRedSubviews:redSubView];
+}
+
+-(void)setUpRedSubviews:(UIView *)redSubview
+{
+    UIView *subview1 = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 50, 50)];
+    subview1.center = CGPointMake(redSubview.center.x, redSubview.center.y-64-50);
+    subview1.backgroundColor = [UIColor colorWithRed:30/255.0 green:40/255.0 blue:50/255.0 alpha:1];
+    [redSubview addSubview:subview1];
+    
+    UIView *subview2 = [[UIView alloc]initWithFrame:CGRectMake(CGRectGetMinX(subview1.frame)-20, CGRectGetMaxY(subview1.frame)-30, 50, 50)];
+    subview2.backgroundColor = [UIColor colorWithRed:200/255.0 green:50/255.0 blue:60/255.0 alpha:1];
+    [redSubview addSubview:subview2];
+    
+    UIView *subview3 = [[UIView alloc]initWithFrame:CGRectMake(CGRectGetMaxX(subview1.frame)-30, CGRectGetMaxY(subview1.frame)-20, 50, 50)];
+    subview3.backgroundColor = [UIColor colorWithRed:200/255.0 green:200/255.0 blue:60/255.0 alpha:1];
+    [redSubview addSubview:subview3];
+    //把subview1放在最上层
+    [redSubview bringSubviewToFront:subview1];
+    //subview3放在最下层
+    [redSubview sendSubviewToBack:subview3];
+    //交换最底层视图和最上层视图
+    [redSubview exchangeSubviewAtIndex:0 withSubviewAtIndex:redSubview.subviews.count-1];
 }
 
 - (void)didReceiveMemoryWarning {
