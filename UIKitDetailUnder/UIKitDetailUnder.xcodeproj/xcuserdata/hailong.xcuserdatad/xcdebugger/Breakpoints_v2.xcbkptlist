@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UIKitDetailUnder/ViewDetail/HierarchyView.m"
-            timestampString = "521523852.969395"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.269837"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-didAddSubview:"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-sizeThatFits:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +41,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UIKitDetailUnder/ViewDetail/HierarchyView.m"
-            timestampString = "521523852.969736"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.27037"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "-willRemoveSubview:"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-layoutSubviews"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +57,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UIKitDetailUnder/ViewDetail/HierarchyView.m"
-            timestampString = "521523852.969962"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.270652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
-            landmarkName = "-didMoveToSuperview"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "-setUpSubviews"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,13 +73,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "UIKitDetailUnder/ViewDetail/HierarchyView.m"
-            timestampString = "521523852.970182"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.270916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "-willMoveToSuperview:"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-setUpSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.271199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-setUpSubviews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UIKitDetailUnder/ViewDetail/LayoutView.m"
+            timestampString = "521535976.271457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-setUpSubviews"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
