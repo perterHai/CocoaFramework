@@ -10,6 +10,7 @@
 #import "ViewDetailBase.h"
 #import "ViewLayoutViewController.h"
 #import "HierarchyViewController.h"
+#import "GesViewController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor whiteColor]];
-    self.listArray = @[@"view详解-基本属性-方法",@"view详解-视图层级",@"view详解-视图布局"];
+    self.listArray = @[@"view详解-基本属性-方法",@"view详解-视图层级",@"view详解-视图布局",@"view详解-事件响应"];
     [self.view addSubview:self.viewDetailTabel];
 }
 
@@ -69,6 +70,12 @@
         {
             ViewLayoutViewController *layOutVC = [[ViewLayoutViewController alloc]init];
             [self.navigationController pushViewController:layOutVC animated:YES];
+        }
+            break;
+        case 3:
+        {
+            GesViewController *gesVC = [[GesViewController alloc]init];
+            [self.navigationController pushViewController:gesVC animated:YES];
         }
             break;
         default:

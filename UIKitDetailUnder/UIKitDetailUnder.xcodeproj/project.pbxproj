@@ -11,6 +11,8 @@
 		D90248531F15CED900EDB077 /* LayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248521F15CED900EDB077 /* LayoutView.m */; };
 		D90248561F15CF1900EDB077 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248551F15CF1900EDB077 /* HierarchyViewController.m */; };
 		D90248591F15CF2E00EDB077 /* HierarchyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D90248581F15CF2E00EDB077 /* HierarchyView.m */; };
+		D902485C1F160B0300EDB077 /* GesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D902485B1F160B0300EDB077 /* GesViewController.m */; };
+		D902485F1F160B1400EDB077 /* GesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D902485E1F160B1400EDB077 /* GesView.m */; };
 		D9AAC48F1F13735F009498FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AAC48E1F13735F009498FF /* AppDelegate.m */; };
 		D9AAC4971F13735F009498FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4961F13735F009498FF /* Assets.xcassets */; };
 		D9AAC49A1F13735F009498FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9AAC4981F13735F009498FF /* LaunchScreen.storyboard */; };
@@ -48,6 +50,10 @@
 		D90248551F15CF1900EDB077 /* HierarchyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyViewController.m; sourceTree = "<group>"; };
 		D90248571F15CF2E00EDB077 /* HierarchyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HierarchyView.h; sourceTree = "<group>"; };
 		D90248581F15CF2E00EDB077 /* HierarchyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchyView.m; sourceTree = "<group>"; };
+		D902485A1F160B0300EDB077 /* GesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesViewController.h; sourceTree = "<group>"; };
+		D902485B1F160B0300EDB077 /* GesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesViewController.m; sourceTree = "<group>"; };
+		D902485D1F160B1400EDB077 /* GesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesView.h; sourceTree = "<group>"; };
+		D902485E1F160B1400EDB077 /* GesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesView.m; sourceTree = "<group>"; };
 		D9AAC48A1F13735F009498FF /* UIKitDetailUnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitDetailUnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AAC48D1F13735F009498FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9AAC48E1F13735F009498FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -163,6 +169,10 @@
 				D90248551F15CF1900EDB077 /* HierarchyViewController.m */,
 				D90248571F15CF2E00EDB077 /* HierarchyView.h */,
 				D90248581F15CF2E00EDB077 /* HierarchyView.m */,
+				D902485A1F160B0300EDB077 /* GesViewController.h */,
+				D902485B1F160B0300EDB077 /* GesViewController.m */,
+				D902485D1F160B1400EDB077 /* GesView.h */,
+				D902485E1F160B1400EDB077 /* GesView.m */,
 			);
 			path = ViewDetail;
 			sourceTree = "<group>";
@@ -302,9 +312,11 @@
 				D90248561F15CF1900EDB077 /* HierarchyViewController.m in Sources */,
 				D90248501F15BEE300EDB077 /* ViewLayoutViewController.m in Sources */,
 				D9D60E931F14D5CB009E47F5 /* ViewDetailBase.m in Sources */,
+				D902485F1F160B1400EDB077 /* GesView.m in Sources */,
 				D9AAC49D1F13735F009498FF /* main.m in Sources */,
 				D90248591F15CF2E00EDB077 /* HierarchyView.m in Sources */,
 				D9AAC4C11F1373C0009498FF /* MainViewController.m in Sources */,
+				D902485C1F160B0300EDB077 /* GesViewController.m in Sources */,
 				D9AAC48F1F13735F009498FF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
